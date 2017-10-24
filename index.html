@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fairhills</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="#" class="scene" data-id="0-living-room">
+        <li class="text">Living Room</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="1-dining-room">
+        <li class="text">Dining Room</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="2-kitchen">
+        <li class="text">Kitchen</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="3-den">
+        <li class="text">Den</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="4-front-hallway">
+        <li class="text">Front Hallway</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="5-main-bathroom">
+        <li class="text">Main Bathroom</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="6-foyer">
+        <li class="text">Foyer</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="7-back-hallway">
+        <li class="text">Back Hallway</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="8-bedroom">
+        <li class="text">Bedroom</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="9-master-bedroom">
+        <li class="text">Master Bedroom</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="10-master-bathroom">
+        <li class="text">Master Bathroom</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="11-north-patio-entrance">
+        <li class="text">North Patio Entrance</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="12-cattage-entrance">
+        <li class="text">Cattage Entrance</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="13-cottage-main">
+        <li class="text">Cottage Main</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="14-cottage-bedroom">
+        <li class="text">Cottage Bedroom</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="15-driveway">
+        <li class="text">Driveway</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="16-entry">
+        <li class="text">Entry</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="17-backyard">
+        <li class="text">Backyard</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="18-lawn">
+        <li class="text">Lawn</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="19-garden">
+        <li class="text">Garden</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="20-garden-path">
+        <li class="text">Garden Path</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="21-main-patio">
+        <li class="text">Main Patio</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="22-lower-patio">
+        <li class="text">Lower Patio</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="#" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="#" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="#" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
